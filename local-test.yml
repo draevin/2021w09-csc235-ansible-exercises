@@ -1,0 +1,7 @@
+---
+- name: Test connection
+  hosts: ip-10-0-0-48
+
+  tasks:
+  - name: Test local connection
+    ansible.builtin.ping:
