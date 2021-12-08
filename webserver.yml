@@ -1,6 +1,6 @@
 ---
 - name: Configure webserver
-  hosts: all
+  hosts: ip-10-0-0-21
 
   tasks:
   - name: Ensure Apache is installed
